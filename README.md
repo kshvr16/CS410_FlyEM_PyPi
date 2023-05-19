@@ -70,7 +70,7 @@ image_data = ImageController.read("..")
 ```
 Output:
 
-![input image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_input.png)
+![input image](https:///raw.githubusercontent.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_input.png)
 
 
 The below sample code normalized the input image.

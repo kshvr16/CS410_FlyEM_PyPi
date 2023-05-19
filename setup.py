@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='flyem_segmentation_pipeline',
-    version='1.3.0',
+    version='1.3.1',
     license='MIT',
     author="Sai Harshavardhan Reddy Kona",
     author_email='s.kona001@umb.edu',
