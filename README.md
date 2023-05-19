@@ -63,3 +63,58 @@ from segmentationMVC.controller import ImageController
 **ImageController.display():** display the image.
 
 ## Sample Usage
+The below sample code reads an image from the input path. 
+```python
+from segmentationMVC.controller import ImageController
+image_data = ImageController.read("..")
+```
+Output:
+![input image]()
+
+The below sample code normalized the input image.
+```python
+from segmentationMVC.controller import ImageController
+normalized_data = ImageController.normalize(image_data)
+```
+Output:
+![normalized image]()
+
+The below sample code crops the input image.
+```python
+from segmentationMVC.controller import ImageController
+crop_data = ImageController.normalize(normalized_data)
+```
+Output:
+![crop image]()
+
+The below sample code smoothens the input image.
+```python
+from segmentationMVC.controller import ImageController
+smoothed_data = ImageController.smooth(crop_data)
+```
+Output:
+![smoothens image]()
+
+To get the complete segmented image, the following will serve as an example.
+```python
+from segmentationMVC.controller import ImageController
+
+image_data = ImageController.read("..")
+
+normalized_data = ImageController.normalize(image_data)
+
+crop_data = ImageController.normalize(normalized_data)
+
+smoothed_data = ImageController.smooth(crop_data)
+
+threshold_data = ImageController.threshold(smoothed_data, threshold_value=73)
+labeled_data, nr_count = ImageController.label(threshold_data)
+selected_labeled_data = ImageController.select_regions(labeled_data, region_size=1500)
+binary_mask_data = ImageController.binary_mask(selected_labeled_data)
+closed_binary_mask_data = ImageController.close_binary_mask(binary_mask_data)
+segmented_image = ImageController.binary_image(closed_binary_mask_data)
+```
+The variable **segmented_image** in the above sample code stores the result of the segmented image.
+
+Output:
+![output image]()
