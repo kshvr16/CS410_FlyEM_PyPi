@@ -11,7 +11,7 @@ setup(
     package_dir={'': 'src'},
     url='https://github.com/kshvr16/CS410_FlyEM_PyPi',
     description='A package based on traditional segmentation algorithms used to segment a fly retina images.',
-    long_description='file: README.md',
+    long_description=open('README.md', 'r').read(),
     long_description_content_type='text/markdown',
     project_urls={
         'Bug Tracker': 'https://github.com/kshvr16/CS410_FlyEM_PyPI/issues',
