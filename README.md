@@ -71,7 +71,6 @@ image_data = ImageController.read("..")
 Output:
 
 ![input image](https:///raw.githubusercontent.com/kshvr16/CS410_FlyEM_PyPi/master/docs/sample_input.png)
-![sample_image](https://raw.githubusercontent.com/karolzak/keras-unet/master/docs/plotted_imgs.png)
 
 The below sample code normalized the input image.
 ```python
