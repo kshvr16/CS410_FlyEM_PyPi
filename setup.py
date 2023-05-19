@@ -10,10 +10,24 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     url='https://github.com/kshvr16/CS410_FlyEM_PyPi',
-    keywords='Testing PyPi deployment',
+    description='A package based on traditional segmentation algorithms used to segment a fly retina images.',
+    long_description='file: README.md',
+    long_description_content_type='text/markdown',
+    project_urls={
+        'Bug Tracker': 'https://github.com/kshvr16/CS410_FlyEM_PyPI/issues',
+    },
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    keywords=[
+        'medical image',
+        'medical image segmentation',
+        'fly retina images',
+        'electron microscopy images',
+    ],
     install_requires=[
-        'numpy',
-        'mahotas',
         'matplotlib',
         'scikit-image'
       ],
