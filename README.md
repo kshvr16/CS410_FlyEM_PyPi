@@ -79,7 +79,7 @@ normalized_data = ImageController.normalize(image_data)
 ```
 Output:
 
-![normalized image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_normalize.png)
+![normalized image](https://raw.githubusercontent.com/kshvr16/CS410_FlyEM_PyPi/master/docs/sample_normalize.png)
 
 
 The below sample code crops the input image.
@@ -89,7 +89,7 @@ crop_data = ImageController.normalize(normalized_data)
 ```
 Output:
 
-![crop image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_crop.png)
+![crop image](https://raw.githubusercontent.com/kshvr16/CS410_FlyEM_PyPi/master/docs/sample_crop.png)
 
 
 The below sample code smoothens the input image.
@@ -99,7 +99,7 @@ smoothed_data = ImageController.smooth(crop_data)
 ```
 Output:
 
-![smoothens image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_smoothen.png)
+![smoothens image](https://raw.githubusercontent.com/kshvr16/CS410_FlyEM_PyPi/master/docs/sample_smoothen.png)
 
 
 To get the complete segmented image, the following will serve as an example.
@@ -126,4 +126,4 @@ The variable **segmented_image** in the above sample code stores the result of t
 
 Output:
 
-![output image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_output.png)
+![output image](https://raw.githubusercontent.com/kshvr16/CS410_FlyEM_PyPi/master/docs/sample_output.png)
