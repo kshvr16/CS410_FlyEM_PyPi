@@ -69,7 +69,9 @@ from segmentationMVC.controller import ImageController
 image_data = ImageController.read("..")
 ```
 Output:
+
 ![input image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_input.png)
+
 
 The below sample code normalized the input image.
 ```python
@@ -77,7 +79,9 @@ from segmentationMVC.controller import ImageController
 normalized_data = ImageController.normalize(image_data)
 ```
 Output:
+
 ![normalized image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_normalize.png)
+
 
 The below sample code crops the input image.
 ```python
@@ -85,7 +89,9 @@ from segmentationMVC.controller import ImageController
 crop_data = ImageController.normalize(normalized_data)
 ```
 Output:
+
 ![crop image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_crop.png)
+
 
 The below sample code smoothens the input image.
 ```python
@@ -93,7 +99,9 @@ from segmentationMVC.controller import ImageController
 smoothed_data = ImageController.smooth(crop_data)
 ```
 Output:
+
 ![smoothens image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_smoothen.png)
+
 
 To get the complete segmented image, the following will serve as an example.
 ```python
@@ -116,5 +124,7 @@ segmented_image = ImageController.binary_image(closed_binary_mask_data)
 ```
 The variable **segmented_image** in the above sample code stores the result of the segmented image.
 
+
 Output:
+
 ![output image](https://github.com/kshvr16/CS410_FlyEM_PyPi/blob/main/docs/sample_output.png)
