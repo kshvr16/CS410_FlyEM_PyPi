@@ -9,7 +9,7 @@ setup(
     author_email='s.kona001@umb.edu',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    url='https://github.com/kshvr16/CS410_FlyEM_TestPyPI_V2',
+    url='https://github.com/kshvr16/CS410_FlyEM_PyPi',
     keywords='Testing PyPi deployment',
     install_requires=[
         'numpy',
