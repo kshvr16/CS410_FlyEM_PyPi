@@ -1,4 +1,4 @@
-# CS410_FlyEM_PyPi
+# CS410_FlyEM
 This repository hosts the segmentation pipeline to segment fly retina images using traditional segmentation algorithms.
 
 
