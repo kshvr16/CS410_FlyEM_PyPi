@@ -21,7 +21,7 @@ Install this python package by executing the following command.
 ```
 If the above command throws any error, please run the following command and install the dependency packages individually.
 ```bash
-pip install flyem_segmentation_pipeling --no-deps
+pip install flyem_segmentation_pipeline --no-deps
 ```
 
 
