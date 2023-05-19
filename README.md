@@ -17,7 +17,7 @@ This repository hosts the segmentation pipeline to segment fly retina images usi
 
 Install this python package by executing the following command.
 ```bash
-  pip install flyem_segmentation
+  pip install flyem_segmentation_pipeline
 ```
 
 
