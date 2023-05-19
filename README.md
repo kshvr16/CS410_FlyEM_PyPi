@@ -33,5 +33,4 @@ pip install flyem_segmentation_pipeling --no-deps
 * [scikit-image](https://pypi.org/project/scikit-image/)
 
     ## Dependency package issues
-        * All the above mentioned packages are required to use this package, but due to the version issues with numpy and mahotas,
-            during installation only matplotlib and scikit-image are installed; numpy and mahotas has to be installed seperately.
+* All the above-mentioned packages are required to use this package, but due to the version issues with numpy and mahotas, during installation only matplotlib and scikit-image are installed; numpy and mahotas has to be installed separately.
