@@ -25,6 +25,15 @@ pip install flyem_segmentation_pipeling --no-deps
 ```
 
 
+## Package Description
+Anyone can use this package to perform various computer vision algorithms to segment the fly retina images.
+The package followed MVC(Model-View-Controller) design pattern.
+All the functionalities can be used by importing them using the following command.
+```bash
+from segmentationMVC.controller import ImageController
+```
+
+
 ## Required Python packages
 
 * [numpy](https://pypi.org/project/numpy/)
