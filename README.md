@@ -25,15 +25,6 @@ pip install flyem_segmentation_pipeling --no-deps
 ```
 
 
-## Package Description
-Anyone can use this package to perform various computer vision algorithms to segment the fly retina images.
-The package followed MVC(Model-View-Controller) design pattern.
-All the functionalities can be used by importing them using the following command.
-```bash
-from segmentationMVC.controller import ImageController
-```
-
-
 ## Required Python packages
 
 * [numpy](https://pypi.org/project/numpy/)
@@ -43,3 +34,32 @@ from segmentationMVC.controller import ImageController
 
     ## Dependency package issues
 All the above-mentioned packages are required to use this package, but due to the version issues with numpy and mahotas, during installation only matplotlib and scikit-image are installed; numpy and mahotas has to be installed separately.
+
+
+## Package Description
+Anyone can use this package to perform various computer vision algorithms to segment the fly retina images.
+
+The package followed MVC(Model-View-Controller) design pattern.
+
+All the functionalities can be used by importing them using the following command.
+```python
+from segmentationMVC.controller import ImageController
+```
+
+## Functions
+
+**ImageController.read():** reads an image from the given path.
+
+**ImageController.normalize():** returns an normalized image of the input image to [0, 255].
+
+**ImageController.center_crop():** crops an image to a default size of (512, 512).
+
+**ImageController.smooth():** smoothens the image using Gaussian filter.
+
+**ImageController.threshold():** applies thresholding of an input image.
+
+**ImageController.binary_mask():** creates an binary mask of the image.
+
+**ImageController.display():** display the image.
+
+## Sample Usage
