@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='CS410_FlyEM_Segmentation_Pipeline',
+    name='flyem_segmentation_pipeline',
     version='1.0',
     license='MIT',
     author="Sai Harshavardhan Reddy Kona",
